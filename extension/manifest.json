@@ -1,9 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Vimdow",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Detects Vimeo videos on the current page and downloads them for offline viewing.",
-  "permissions": ["downloads", "activeTab", "scripting", "storage", "offscreen"],
+  "author": "bercanozcan",
+  "homepage_url": "https://github.com/bercanozcan/vimdow",
+  "minimum_chrome_version": "116",
+  "permissions": ["downloads", "storage", "offscreen"],
   "host_permissions": [
     "*://*.vimeo.com/*",
     "*://*.vimeocdn.com/*",
