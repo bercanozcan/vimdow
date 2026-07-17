@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1280px; height: 800px; overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(135deg, #0b2530 0%, #113a4c 55%, #00506e 100%);
+    color: #fff;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+  }
+  h1 { font-size: 46px; font-weight: 800; margin-bottom: 14px; text-align: center; }
+  h1 em { font-style: normal; color: #17d5ff; }
+  .sub { font-size: 20px; color: #b8d4e0; margin-bottom: 54px; text-align: center; }
+  .grid { display: grid; grid-template-columns: repeat(3, 320px); gap: 26px; }
+  .card {
+    background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12);
+    border-radius: 16px; padding: 28px 26px;
+  }
+  .card .ico {
+    width: 52px; height: 52px; border-radius: 13px; margin-bottom: 18px;
+    background: linear-gradient(135deg, #00adef, #17d5ff);
+    display: flex; align-items: center; justify-content: center; font-size: 26px;
+  }
+  .card h3 { font-size: 21px; margin-bottom: 10px; }
+  .card p { font-size: 16px; line-height: 1.5; color: #b8d4e0; }
+</style>
+</head>
+<body>
+  <h1>Private by design. <em>Local by default.</em></h1>
+  <div class="sub">Everything happens in your browser — nothing leaves your computer.</div>
+  <div class="grid">
+    <div class="card">
+      <div class="ico">🔒</div>
+      <h3>No tracking</h3>
+      <p>No analytics, no telemetry, no accounts. Vimdow never sends your data anywhere.</p>
+    </div>
+    <div class="card">
+      <div class="ico">🎞️</div>
+      <h3>Original quality</h3>
+      <p>Streams are saved exactly as Vimeo serves them — no re-encoding, no watermarks, no quality loss.</p>
+    </div>
+    <div class="card">
+      <div class="ico">⚡</div>
+      <h3>Embedded players too</h3>
+      <p>Detects Vimeo videos on vimeo.com and inside players embedded on any other website.</p>
+    </div>
+  </div>
+</body>
+</html>
